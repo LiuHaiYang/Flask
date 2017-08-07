@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - target@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="target">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="bbs"/>
+    <schema id="3" name="django_db"/>
+    <schema id="4" name="flask"/>
+    <schema id="5" name="information_schema"/>
+    <schema id="6" name="jdbc"/>
+    <schema id="7" name="mysql"/>
+    <schema id="8" name="oracle"/>
+    <schema id="9" name="performance_schema"/>
+    <schema id="10" name="php_1"/>
+    <schema id="11" name="php_2"/>
+    <schema id="12" name="php_4"/>
+    <table id="13" parent="1" name="target_rec"/>
+    <column id="14" parent="13" name="ID">
+      <data-type>int(255)|0</data-type>
+    </column>
+    <column id="15" parent="13" name="Target_ID">
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="16" parent="13" name="Pin_ID">
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="17" parent="13" name="Target_IP">
+      <data-type>varchar(765)|0</data-type>
+    </column>
+    <column id="18" parent="13" name="Target_Priority">
+      <data-type>varchar(765)|0</data-type>
+    </column>
+    <column id="19" parent="13" name="Target_Access_DT">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="20" parent="13" name="Target_Web_live_long">
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="21" parent="13" name="Target_Rec_DT">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="22" parent="13" name="Target_Signal">
+      <data-type>varchar(765)|0</data-type>
+    </column>
+  </database-model>
+</dataSource>

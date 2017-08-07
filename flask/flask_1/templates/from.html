@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>hello world</h1>
+<form action="/login" method="post">
+    <input type="text" name="username"><br><br>
+    <input type="password" name="password"><br><br>
+    <input type="submit" value="Submit">
+
+</form>
+<h3>{{ get_flashed_messages()[0]}}</h3>
+</body>
+</html>

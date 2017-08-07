@@ -1,0 +1,23 @@
+{% extends 'bootstrap/base.html' %}
+    {% block head %}
+        {{ super() }}
+     {% include  ['forever/_header.html','forever/_marcos.html'] %}
+    {% endblock %}
+{% block  navbar %}
+        {{ nav.top.render() }}
+{% endblock %}
+{% block content %}
+<header>{% block header %}{% endblock %}</header>
+{#<div>{% block content %}{% endblock %}</div>#}
+{% endblock %}
+
+{#{% for item in items  %}#}
+{#    <li>{% block loop_item scoped %}{{ item }}{% endblock %}</li>#}
+{#{% endfor %}#}
+    {% block footer%}
+        <footer>
+        CopyRight 2015 by <a href="###">oceango@126.com</a>
+        </footer>
+    {% endblock %}
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - flask@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="flask">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="bbs"/>
+    <schema id="3" name="django_db"/>
+    <schema id="4" name="information_schema"/>
+    <schema id="5" name="jdbc"/>
+    <schema id="6" name="mysql"/>
+    <schema id="7" name="oracle"/>
+    <schema id="8" name="performance_schema"/>
+    <schema id="9" name="php_1"/>
+    <schema id="10" name="php_2"/>
+    <schema id="11" name="php_4"/>
+    <schema id="12" name="test"/>
+    <table id="13" parent="1" name="user"/>
+    <column id="14" parent="13" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="15" parent="13" name="user_name">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="16" parent="13" name="PRIMARY">
+      <columns>user_id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
